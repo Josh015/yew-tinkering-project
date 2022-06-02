@@ -1,11 +1,18 @@
 {
-  "editor.defaultFormatter": "matklad.rust-analyzer",
+  "editor.defaultFormatter": "rust-lang.rust-analyzer",
   "editor.formatOnSave": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "cSpell.words": [
+    "chrono",
     "consts",
+    "gloo",
+    "onclosed",
+    "onnavigationiconclick",
+    "onopened",
     "powf",
-    "powi"
+    "powi",
+    "routable",
+    "textfield"
   ]
 }
