@@ -6,6 +6,13 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-material-yew="0.1.0"
-yew="0.19.3"
-yew-router="0.16.0"
+chrono = { version = "0.4.19", features = ["serde"] }
+log = "0.4.17"
+# material-yew = { version = "0.1.0", features = ["full"] }
+material-yew = { git = "https://github.com/hamza1311/material-yew.git", features = ["full"] }
+serde = "1.0.137"
+wasm-logger = "0.2.0"
+wee_alloc = "0.4.5"
+yew = "0.19.3"
+yew-hooks = "0.1.56"
+yew-router = "0.16.0"
